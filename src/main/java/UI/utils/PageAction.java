@@ -78,6 +78,12 @@ public class PageAction {
                         System.out.println("Provided locator is a xpath");
                     } catch (Exception e4) {
                         System.out.println("No such element");
+                        try {
+                            e = driver.findElement(By.name(element));
+                            System.out.println("Provided locator is a name");
+                        } catch (Exception e5) {
+                            System.out.println("No such element");
+                        }
                     }
                 }
             }

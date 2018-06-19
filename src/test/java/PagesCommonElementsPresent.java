@@ -22,11 +22,11 @@ public class PagesCommonElementsPresent {
 
     @Test
     public void checkHomePageTitlePresent() {
-        PageAction.assertWebElementText(Home.homePageTitle,"Система за фактуриране");
+        PageAction.assertWebElementText(Home.title,"Система за фактуриране");
     }
     @Test
     public void checkHeaderUnusedPresent(){
-        PageAction.assertWebElementPresent(PagesCommonElements.headerUnused);
+        PagesCommonElements.assertWebElementPresent(PagesCommonElements.headerUnused);
     }
     @Test
     public void checkSystemMessagesPresent() {

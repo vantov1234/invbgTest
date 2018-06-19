@@ -1,9 +1,10 @@
 package UI;
 import UI.LoginPage;
+import UI.utils.PageAction;
 
-public class Home extends LoginPage{
+public class Home extends PageAction{
 
-    public static final String homePageTitle = "//div[@id='headline2']/h2";
+    public static final String title = "//div[@id='headline2']/h2";
 
 
 }
