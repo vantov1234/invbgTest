@@ -4,7 +4,7 @@ import UI.utils.PageAction;
 
 public class PhisicalClient extends PageAction {
     public static final String addNewClient = "Нов клиент";
-    public static final String Title = "//div[@id='headline2']/h2";
+    public static final String pageTitle = "//div[@id='headline2']/h2";
     public static final String searchButton = "searchbtn";
     public static final String closeSearchButton = "searchbtn2";
     public static final String orCloseSearchButton = "orclose";
@@ -34,11 +34,11 @@ public class PhisicalClient extends PageAction {
     private String person_egn;
     private String client_postcode;
 
-    public String getPerson_egn() {
+    public String getPersonEgn() {
         return person_egn;
     }
 
-    public String getClient_postcode() {
+    public String getPersonPostCode() {
         return client_postcode;
     }
 

@@ -19,10 +19,10 @@ public class AddNewPhisicalClient {
 
     @Test
     public void addNewPhisicalClient(){
-        LoginPage loginPage = new LoginPage();
-        loginPage.fillInputField(LoginPage.logInUserField, LoginPage.logInEmailData);
-        loginPage.fillInputField(LoginPage.logInPasswordField, LoginPage.logInPasswordData);
-        loginPage.buttonClick(LoginPage.logInSubmitButton);
+        LoginPage logIn = new LoginPage();
+        logIn.fillInputField(LoginPage.logInUserField, LoginPage.logInEmailData);
+        logIn.fillInputField(LoginPage.logInPasswordField, LoginPage.logInPasswordData);
+        logIn.buttonClick(LoginPage.logInSubmitButton);
         PagesCommonElements pagesCommonElements = new PagesCommonElements();
         pagesCommonElements.buttonClick(PagesCommonElements.tabClients);
         PhisicalClient phisicalClient = new PhisicalClient("Ivan Ivanov","Sofia","'Solunska'str");
@@ -37,10 +37,10 @@ public class AddNewPhisicalClient {
 
     @Test
     public void addNewPhisicalClientAll(){
-        LoginPage loginPage = new LoginPage();
-        loginPage.fillInputField(LoginPage.logInUserField, LoginPage.logInEmailData);
-        loginPage.fillInputField(LoginPage.logInPasswordField, LoginPage.logInPasswordData);
-        loginPage.buttonClick(LoginPage.logInSubmitButton);
+        LoginPage logIn = new LoginPage();
+        logIn.fillInputField(LoginPage.logInUserField, LoginPage.logInEmailData);
+        logIn.fillInputField(LoginPage.logInPasswordField, LoginPage.logInPasswordData);
+        logIn.buttonClick(LoginPage.logInSubmitButton);
         PagesCommonElements pagesCommonElements = new PagesCommonElements();
         pagesCommonElements.buttonClick(PagesCommonElements.tabClients);
         PhisicalClient phisicalClientAll = new PhisicalClient("Georgi Georgiev","789456123","'Bulgaria'blvd","Sofia","1000");
@@ -49,8 +49,8 @@ public class AddNewPhisicalClient {
         phisicalClientAll.fillInputField(PhisicalClient.personNameField,phisicalClientAll.getPersonName());
         phisicalClientAll.fillInputField(PhisicalClient.personAddressField,phisicalClientAll.getPersonAddress());
         phisicalClientAll.fillInputField(PhisicalClient.personCityField,phisicalClientAll.getPersonCity());
-        phisicalClientAll.fillInputField(PhisicalClient.personEgnField,phisicalClientAll.getPerson_egn());
-        phisicalClientAll.fillInputField(PhisicalClient.personPostCodeField,phisicalClientAll.getClient_postcode());
+        phisicalClientAll.fillInputField(PhisicalClient.personEgnField,phisicalClientAll.getPersonEgn());
+        phisicalClientAll.fillInputField(PhisicalClient.personPostCodeField,phisicalClientAll.getPersonPostCode());
         phisicalClientAll.buttonClick(PhisicalClient.doSubmitNewClient);
         phisicalClientAll.assertWebElementPresent(PhisicalClient.clientIsAddedMessage);
     }
