@@ -1,5 +1,5 @@
 import UI.LoginPage;
-import UI.utils.PageAction;
+import UI.utils.Do;
 import org.junit.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -7,8 +7,8 @@ import org.junit.runners.Parameterized;
 @RunWith(Parameterized.class)
 public class UnsuccessfulLogin {
 
-    String email;
-    String password;
+    private String email;
+    private String password;
 
     @Parameterized.Parameters
     public static String[][] testLogInData() {
@@ -29,22 +29,23 @@ public class UnsuccessfulLogin {
 
     @Before
     public void openBrowser() {
-        PageAction.startBrowser("chrome");
+        Do.startBrowser("chrome");
     }
 
     @After
     public void closeBrowser() {
-        PageAction.closeBrowser();
+        Do.closeBrowser();
     }
 
     @Test
-    public void UnsuccessfulLogin() throws InterruptedException {
-        LoginPage loginPage = new LoginPage();
-        loginPage.fillInputField(LoginPage.logInUserField, this.email);
-        PageAction.assertWebElementPresent(LoginPage.logInUserField);
-        loginPage.fillInputField(LoginPage.logInPasswordField, this.password);
-        PageAction.assertWebElementPresent(LoginPage.logInPasswordField);
-        loginPage.buttonClick(LoginPage.logInSubmitButton);
-        PageAction.assertWebElementPresent(LoginPage.LogInErrorMessage);
+    public void UnsuccessfulLogIn(){
+        Do.inputText(LoginPage.logInUserField, this.email);
+        System.out.println("Login with email: " + this.email);
+        Do.inputText(LoginPage.logInPasswordField, this.password);
+        System.out.println("Entering password: " + this.password);
+        Do.clickOn(LoginPage.logInSubmitButton);
+        Do.assertWebElementPresent(LoginPage.logInErrorMessage);{
+            System.out.println("Wrong user or password!");
+        }
     }
 }

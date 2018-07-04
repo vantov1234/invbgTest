@@ -1,7 +1,7 @@
 package UI.utils;
 
 
-public class PagesCommonElements extends UI.utils.PageAction {
+public class PagesCommonElements {
 
     public static String headerUnused = "headerUnused";
     public static String systemMessages = "//div[@id='toplinks']/a[4]/span";
