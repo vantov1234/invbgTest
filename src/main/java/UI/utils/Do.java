@@ -1,12 +1,14 @@
 package UI.utils;
 
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
 
@@ -113,4 +115,21 @@ public class Do {
         Do.recogniseElement(button).click();
     }
 
+    public static void selectFromDropdown(String element, int index) {
+        Do.clickOn(element);
+        Select drop = new Select(Do.recogniseElement(element));
+        drop.selectByIndex(index);
+        System.out.println(drop.toString());
+    }
+
+    public static void allertWindow(String action) {
+        Alert alert = Do.driver.switchTo().alert();
+        if (action == "accept") {
+            alert.accept();
+        }
+        if (action == "dismiss") {
+            alert.dismiss();
+        }
+
+    }
 }

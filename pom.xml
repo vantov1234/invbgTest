@@ -77,7 +77,17 @@
             <artifactId>rest-assured</artifactId>
             <version>RELEASE</version>
         </dependency>
-    </dependencies>
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-support</artifactId>
+                <version>3.8.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-api</artifactId>
+                <version>3.8.1</version>
+            </dependency>
+        </dependencies>
 
 
 </project>
