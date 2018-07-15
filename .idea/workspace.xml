@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5614f9f2-34ee-449b-ac32-e955973de594" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/PhisicalClient.java" afterPath="$PROJECT_DIR$/src/main/java/UI/PhisicalClient.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddNewObject.java" afterPath="$PROJECT_DIR$/src/test/java/AddNewObject.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddNewPhisClient.java" afterPath="$PROJECT_DIR$/src/test/java/AddNewPhisClient.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -555,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531082086538</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added 3 new tests for creating new objects. Test &quot;addNewObject1&quot; shows that when it enters an object the same cannot be deleted with the delete button.">
+      <created>1531659382742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531659382742</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
