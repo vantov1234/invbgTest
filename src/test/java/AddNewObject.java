@@ -6,8 +6,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import javax.swing.*;
-
 public class AddNewObject {
     @Before
     public void startBrowser() throws Exception {

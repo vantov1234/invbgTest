@@ -30,6 +30,12 @@ public class AddNewPhisClient {
         {
             System.out.println(Do.recogniseElement(PhisicalClient.clientIsAddedMessage).getText());
         }
+        Do.clickOn(PagesCommonElements.tabClients);
+        Do.clickOn("Ivan Ivanov");
+        Do.clickOn(PhisicalClient.deleteClient);
+        Do.allertWindow("accept");
+        Do.assertWebElementPresent(PhisicalClient.successMessage);
+        System.out.println(Do.recogniseElement(PhisicalClient.successMessage).getText());
     }
 
     @Test
@@ -44,5 +50,12 @@ public class AddNewPhisClient {
         {
             System.out.println(Do.recogniseElement(PhisicalClient.clientIsAddedMessage).getText());
         }
+        Do.clickOn(PagesCommonElements.tabClients);
+        Do.clickOn("Ivan Ivanov");
+        Do.clickOn(PhisicalClient.deleteClient);
+        Do.allertWindow("accept");
+        Do.assertWebElementPresent(PhisicalClient.successMessage);
+        System.out.println(Do.recogniseElement(PhisicalClient.successMessage).getText());
+
     }
 }

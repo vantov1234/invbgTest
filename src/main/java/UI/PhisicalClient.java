@@ -23,6 +23,8 @@ public class PhisicalClient {
     private static final String personAddressField = "person_address";
     private static final String personPostCodeField = "client_postcode";
     private static final String personCityField = "person_city";
+    public static final String deleteClient = "Изтрий";
+    public static final String successMessage = "okmsg";
 
     public static void createPhisClient (String person_name, String person_address, String person_city){
         Do.inputText(PhisicalClient.personNameField,person_name);

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5614f9f2-34ee-449b-ac32-e955973de594" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_8_1.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/invbgTest.iml" afterPath="$PROJECT_DIR$/invbgTest.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/utils/Do.java" afterPath="$PROJECT_DIR$/src/main/java/UI/utils/Do.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/PhisicalClient.java" afterPath="$PROJECT_DIR$/src/main/java/UI/PhisicalClient.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AddNewObject.java" afterPath="$PROJECT_DIR$/src/test/java/AddNewObject.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddNewPhisClient.java" afterPath="$PROJECT_DIR$/src/test/java/AddNewPhisClient.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +21,7 @@
       <file leaf-file-name="Do.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UI/utils/Do.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="518">
               <caret line="124" column="23" lean-forward="false" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
               <folding>
                 <element signature="method#configureBrowser#0;class#Do#0" expanded="false" />
@@ -38,28 +36,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Objects.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UI/Objects.java">
+      <file leaf-file-name="PhisicalClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/PhisicalClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="364">
+              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddNewObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AddNewObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="37" column="86" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddNewObject.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AddNewObject.java">
+      <file leaf-file-name="Objects.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/Objects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnsuccessfulLogin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnsuccessfulLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddNewPhisClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AddNewPhisClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="903">
+              <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,12 +139,12 @@
         <option value="$PROJECT_DIR$/src/test/java/UnsuccessfulLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddNewPhisClientAllFields.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddNewPhisClientMandFields.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AddNewPhisClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UI/PhisicalClient.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/UI/Objects.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/utils/Do.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddNewObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/Objects.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/PhisicalClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AddNewPhisClient.java" />
       </list>
     </option>
   </component>
@@ -241,10 +267,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddNewObject.addNewObject1">
+  <component name="RunManager" selected="JUnit.AddNewPhisClient">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -358,15 +384,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="AddNewPhisClient.addNewPhisicalClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddNewPhisClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="invbgTest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AddNewPhisClient" />
-      <option name="METHOD_NAME" value="addNewPhisicalClient" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -378,14 +404,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PagesCommonElementsPresent.checkHomePageTitlePresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddNewPhisClient.addNewPhisicalClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="invbgTest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PagesCommonElementsPresent" />
-      <option name="METHOD_NAME" value="checkHomePageTitlePresent" />
+      <option name="MAIN_CLASS_NAME" value="AddNewPhisClient" />
+      <option name="METHOD_NAME" value="addNewPhisicalClient" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -473,17 +499,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AddNewPhisClient.addNewPhisicalClient" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AddNewObject.addNewObject" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PagesCommonElementsPresent.checkHomePageTitlePresent" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AddNewObject" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AddNewObject.addNewObject1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AddNewObject" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AddNewObject.addNewObject1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AddNewPhisClient" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AddNewObject.addNewObject1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AddNewObject" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AddNewObject.addNewObject" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PagesCommonElementsPresent.checkHomePageTitlePresent" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AddNewPhisClient.addNewPhisicalClient" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AddNewPhisClient" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AddNewPhisClient.addNewPhisicalClient" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AddNewObject.addNewObject1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AddNewObject" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AddNewObject.addNewObject" />
       </list>
     </recent_temporary>
   </component>
@@ -522,19 +548,17 @@
       <option name="project" value="LOCAL" />
       <updated>1530731582842</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added 3 new tests for creating new objects. Test &quot;addNewObject1&quot; shows that when it enters an object the same cannot be deleted with the delete button.">
+      <created>1531082086538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531082086538</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddNewObject - 2018.07.08 at 22h 28m 10s.xml">
-      <configuration name="AddNewObject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddNewObject_addNewObject - 2018.07.08 at 18h 29m 08s.xml">
-      <configuration name="AddNewObject.addNewObject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddNewObject_addNewObject - 2018.07.08 at 18h 45m 35s.xml">
-      <configuration name="AddNewObject.addNewObject" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddNewObject_addNewObject - 2018.07.08 at 18h 47m 26s.xml">
       <configuration name="AddNewObject.addNewObject" configurationId="JUnit" />
     </history-entry>
@@ -552,6 +576,15 @@
     </history-entry>
     <history-entry file="AddNewObject_addNewObject1 - 2018.07.08 at 23h 10m 38s.xml">
       <configuration name="AddNewObject.addNewObject1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddNewPhisClient - 2018.07.15 at 12h 56m 32s.xml">
+      <configuration name="AddNewPhisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddNewPhisClient_addNewPhisicalClient - 2018.07.15 at 12h 44m 15s.xml">
+      <configuration name="AddNewPhisClient.addNewPhisicalClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddNewPhisClient_addNewPhisicalClient - 2018.07.15 at 12h 46m 44s.xml">
+      <configuration name="AddNewPhisClient.addNewPhisicalClient" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PagesCommonElementsPresent_checkHomePageTitlePresent - 2018.07.08 at 18h 21m 54s.xml">
       <configuration name="PagesCommonElementsPresent.checkHomePageTitlePresent" configurationId="JUnit" />
@@ -626,7 +659,8 @@
     <MESSAGE value="PageCommonElements class, PhisicalClient class, add clients tests and elements present tests are added." />
     <MESSAGE value="Object class is added." />
     <MESSAGE value="The project is upgraded with higher level of abstraction." />
-    <option name="LAST_COMMIT_MESSAGE" value="The project is upgraded with higher level of abstraction." />
+    <MESSAGE value="Added 3 new tests for creating new objects. Test &quot;addNewObject1&quot; shows that when it enters an object the same cannot be deleted with the delete button." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 3 new tests for creating new objects. Test &quot;addNewObject1&quot; shows that when it enters an object the same cannot be deleted with the delete button." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -953,16 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnsuccessfulLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="method#UnsuccessfulLogin#0;class#UnsuccessfulLogin#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UI/utils/PagesCommonElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -971,24 +995,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AddNewPhisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-          <folding>
-            <element signature="e#253#254#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-            <element signature="e#331#332#0" expanded="false" />
-            <element signature="e#364#365#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1-sources.jar!/org/openqa/selenium/WebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,14 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/PhisicalClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="35" column="147" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="147" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/com/sun/org/apache/bcel/internal/generic/Select.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1046,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="205" column="5" lean-forward="false" selection-start-line="205" selection-start-column="5" selection-end-line="205" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,31 +1062,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UI/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="420">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnsuccessfulLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UI/utils/Do.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="518">
           <caret line="124" column="23" lean-forward="false" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
           <folding>
             <element signature="method#configureBrowser#0;class#Do#0" expanded="false" />
@@ -1100,15 +1097,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/PhisicalClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AddNewObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="304">
+          <caret line="37" column="86" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddNewPhisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
