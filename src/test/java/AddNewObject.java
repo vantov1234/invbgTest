@@ -14,7 +14,7 @@ public class AddNewObject {
 
     @After
     public void quit() {
-        Do.closeBrowser();
+        //Do.closeBrowser();
     }
 
     @Test
@@ -30,13 +30,7 @@ public class AddNewObject {
         {
             System.out.println(Do.recogniseElement(Objects.successMessage).getText());
         }
-        Do.clickOn(PagesCommonElements.tabObjects);
-        Do.clickOn("Минерална вода 1,5л.");
-        Do.clickOn(Objects.deleteObject);
-        Do.allertWindow("accept");
-        Do.assertWebElementPresent(Objects.successMessage);{
-            System.out.println(Do.recogniseElement(Objects.successMessage).getText());
-        }
+        Objects.deleteObject("Минерална вода 1,5л.");
     }
 
     @Test
@@ -52,6 +46,7 @@ public class AddNewObject {
         {
             System.out.println(Do.recogniseElement(Objects.successMessage).getText());
         }
+        Objects.deleteObject("Ябълки");
     }
 
     @Test
@@ -67,5 +62,6 @@ public class AddNewObject {
         {
             System.out.println(Do.recogniseElement(Objects.successMessage).getText());
         }
+        Objects.deleteObject("Абонамент");
     }
 }
