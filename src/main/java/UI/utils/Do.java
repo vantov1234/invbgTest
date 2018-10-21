@@ -23,13 +23,6 @@ public class Do {
     private static final String ieBrowserPath = "D:/Selenuim_drivers/MicrosoftWebDriver.exe";
     private static WebDriver driver;
 
-    private static void configureBrowser() {
-        driver.get(Do.logInUrl);
-        System.out.println("Going to " + logInUrl);
-        driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
-        driver.manage().window().maximize();
-    }
-
     public static void startBrowser(String chooseBrowser) {
         if (chooseBrowser.equalsIgnoreCase("firefox")) {
             System.out.println("Opening Mozilla Firefox...");
@@ -49,6 +42,13 @@ public class Do {
             driver = new InternetExplorerDriver();
             configureBrowser();
         }
+    }
+
+    private static void configureBrowser() {
+        driver.get(Do.logInUrl);
+        System.out.println("Going to " + logInUrl);
+        driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
+        driver.manage().window().maximize();
     }
 
     public static void closeBrowser() {
