@@ -17,8 +17,10 @@ public class LoginPage {
     public static final String logInPasswordData = "valio123";
 
     public static void successfulLogin(){
+        Do.clearField(logInUserField);
         Do.inputText(logInUserField,logInEmailData);
         System.out.println("Login with email: " + logInEmailData);
+        Do.clearField(logInPasswordField);
         Do.inputText(logInPasswordField,logInPasswordData);
         System.out.println("Entering password: " + logInPasswordData);
         Do.clickOn(logInSubmitButton);
