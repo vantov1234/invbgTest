@@ -9,7 +9,7 @@ import UI.utils.Do;
 public class SuccessfulLogin {
 
     @Before
-    public void startBrowser() throws Exception {
+    public void startBrowser() {
         Do.startBrowser("chrome");
     }
 
@@ -19,7 +19,7 @@ public class SuccessfulLogin {
     }
 
     @Test
-    public void logIn() throws InterruptedException {
+    public void logIn() {
         LoginPage.successfulLogin();
         Do.assertWebElementPresent(PagesCommonElements.userPanel);{
             System.out.println("Successful login!");
